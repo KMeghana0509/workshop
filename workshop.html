@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop</title>
+</head>
+
+<body>
+    <h1>Workshop</h1>
+    <div>
+        <b>What is the difference between div and span?</b>
+        <p>The main difference between div and span elements in HTML lies in their default display properties and their
+            typical use cases:</p>
+        <p>
+            div: This is a block-level element. By default, it takes up the full width available and starts on a new
+            line. Block-level elements are generally used to structure larger sections of a page, such as containers for
+            layout or grouping content.
+
+        </p>
+        <p>
+            span: This is an inline element. It only takes up as much width as necessary and does not start on a new
+            line. Inline elements are typically used for styling or modifying a part of text within a line without
+            affecting the layout of surrounding content.
+        </p>
+        Use Cases:
+        div: Commonly used for grouping larger sections of content or creating layout containers. For example, you might
+        use a div to create a section of a webpage or to group multiple elements together for styling or scripting.</p>
+        <p>span: Typically used for styling or scripting within a block of text. For instance, you might use a span tag
+            to change the color or style of a few words within a paragraph without affecting the layout of the paragraph
+            itself.</p>
+    </div>
+    <div>
+        <b>What are the semantic elements in html?</b>
+
+        <p>
+            Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way.
+            They help to create a well-structured and meaningful web page, improving accessibility, SEO, and
+            maintainability. Here are some common semantic elements and their purposes:
+        </p>
+        <p>
+        <pre>
+        header : Represents introductory content or a set of navigational links, typically found at the top of a page or section.
+
+        nav : Defines a navigation section, usually containing links to other pages or sections of the website.
+            
+        main : Represents the dominant content of the body, excluding headers, footers, and sidebars. There should be only one main element per document.
+            
+        section : Defines a section of content, typically with a heading. It groups related content together.
+            
+        article : Represents a self-contained piece of content that could be distributed independently, such as a blog post, news article, or forum post.
+            
+        aside : Contains content that is tangentially related to the content around it, such as sidebars, pull quotes, or advertisements.
+            
+        footer : Contains footer content for a section or the entire page, such as contact information, copyright notices, or links to related documents.
+            
+        figure : Used to encapsulate media (like images, illustrations, or videos) and its caption, which is specified with the figcaption element.
+            
+        figcaption: Provides a caption or description for the content inside a figure.
+            
+        time: Represents a specific period in time, such as a date or time, and allows for better machine readability.
+            
+        address: Provides contact information for the author or owner of a document or section.
+            
+        details: Allows the user to view or hide additional information, typically shown or hidden with a toggle.
+            
+        summary: Provides a summary or heading for the content inside a details element.
+            
+        mark: Highlights parts of text that have relevance or importance, often used to emphasize a keyword or phrase.
+            
+        label: Defines a label for an input element, improving form accessibility by associating labels with form controls.
+            
+        Using semantic elements helps both browsers and assistive technologies understand the structure and content of a web page better, leading to improved user experience and accessibility.
+       </pre>
+        </p>
+    </div>
+    <div>
+        <b>What is the difference between href attribute and src attribute?</b>
+        <p>
+        <pre>
+The `href` and `src` attributes are used in HTML to link resources, but they serve different purposes:
+
+href: Specifies the URL of a resource to link to. It is used with elements like a, link, and base. It is
+primarily for creating hyperlinks to other pages or resources.
+
+src: Specifies the URL of a resource to embed or include. It is used with elements like img, script, and
+iframe. It is primarily for embedding resources such as images, scripts, or iframes into the current
+document.
+           </pre>
+        </p>
+    </div>
+    <div>
+        <b>What is difference between xml and html?</b>
+        <p>
+        <pre>
+XML (Extensible Markup Language) and HTML (HyperText Markup Language) are both markup languages, but they serve different purposes and have distinct characteristics:
+
+Purpose
+HTML: Designed for creating and displaying web pages. It defines the structure and layout of web content.
+XML: Designed for storing and transporting structured data. It focuses on data representation and allows for the creation of custom tags.
+Tag Flexibility
+HTML: Uses predefined tags (like p, div, a, etc.) that are standardized and understood by web browsers.
+XML: Allows users to define their own tags and structure. It is not predefined and is customizable based on the needs of the application.
+Structure
+HTML: Looser syntax rules. For example, it is not required for all tags to be closed, and the document can be rendered even if some tags are missing or incorrect.
+XML: Strict syntax rules. All tags must be properly nested and closed. XML documents must be well-formed to be parsed correctly.
+Case Sensitivity
+HTML: Tags are not case-sensitive. title is equivalent to TITLE.
+XML: Tags are case-sensitive. Tag and tag would be considered different.
+Document Validation
+HTML: Validation is based on a predefined DTD or schema, but browsers often handle invalid HTML gracefully.
+XML: Validation can be enforced using a DTD (Document Type Definition) or XML Schema. XML documents must adhere to these definitions to be considered valid.
+Usage
+HTML: Primarily used for displaying content on web pages.
+XML: Used for data interchange between systems and for storing hierarchical data in a text format.
+            </pre>
+        </p>
+    </div>
+    <div>
+        <b>What are list tags and how many are they?</b>
+        <p>
+        <pre>
+HTML lists allow web developers to group a set of related items in lists.
+
+Unordered HTML List:
+An unordered list starts with the ul tag. Each list item starts with the li tag.
+
+The list items will be marked with bullets (small black circles) by default.
+
+Ordered HTML List:
+An ordered list starts with the ol tag. Each list item starts with the li tag.
+
+The list items will be marked with numbers by default.
+
+Description list:
+A description list is a list of terms, with a description of each term.
+The dl tag defines the description list, the dt tag defines the term (name), and the dd tag describes each term:
+</pre>
+        </p>
+    </div>
+    <div>
+        <b>Create a iframe where single iframe can opens multiple links in it.</b>
+        <p>
+        <div>
+            <a href="https://media.designcafe.com/wp-content/uploads/2020/05/19140730/traditional-interior-design-for-your-home.jpg"
+                target="Inerior" width="250">Traditional Design</a>&nbsp;&nbsp;
+            &nbsp; &nbsp; &nbsp;
+        </div>
+        <div>
+            <a href="https://images.prismic.io/luxdeco-dev/YmM0YzhmZDItM2YzZS00ZWY1LThlMmEtNjJjYWEwOGJjZTg5_top-10-modern-interior-designers_260a6d81-aae7-4caf-834a-7657993e3360.jpg?auto=compress,format&w=1200&q=100"
+                target="Inerior" width="250">Modern design</a>&nbsp;&nbsp;
+            &nbsp; &nbsp; &nbsp;
+        </div>
+        <div>
+            <a href="https://media.designcafe.com/wp-content/uploads/2020/09/10181833/modern-farmhouse-living-room-design.jpg"
+                target="Inerior" width="250">Farm house design</a>&nbsp;&nbsp;
+            &nbsp; &nbsp; &nbsp;
+        </div>
+        <div>
+            <a href="https://www.lowcountryhome.com/wp-content/uploads/2022/07/32EBeachLag_MoonlightProductions-14-copy.jpg"
+                target="Inerior" width="250">Coastal design</a>&nbsp;&nbsp;
+            &nbsp; &nbsp; &nbsp;
+        </div>
+        <div>
+            <iframe src="" frameborder="1" name="Inerior" width="250" height="250"></iframe>
+        </div>
+    </div>
+    </p>
+    <div>
+        <b>Create a register form using name, email, age, privacy policies and submit and do validations.</b>
+        <p>
+            <form action="https://assets-global.website-files.com/5ef0df6b9272f7410180a013/60c0e28575cd7c21701806fd_q1cunpuhbdreMPFRSFLyfUXNzpqv_I5fz_plwv6gV3sMNXwUSPrq88pC2iJijEV7wERnKXtdTA0eE4HvdnntGo9AHAWn-IcMPKV-rZw1v75vlTEoLF4OdNqsRb7C6r7Mvzrm7fe4.png">
+                <div style="border-radius: 8%; width :500px; height:400px; background-color: skyblue;">
+                    <center>
+                    <h1>Sign Up</h1>
+                    </center>             
+                <div style="width :500px; height:300px; background-color: white;">
+                    <p>Register form</p>
+                    <hr><br>
+                    <pre>
+                <input type="text" placeholder="Name" id="Name" required><br>
+                <input type="email" placeholder="Email" id="Email" style="width: 340px;" required><br>
+                <input type="number" placeholder="age" id="number" style="width: 340px;" required min="18" max="45"><br>
+                <input type="checkbox">I accept the use of <a href="Terms of Use">Terms of Use</a> and <a href="Privacy policy" aria-required="">Privacy policy</a><br>
+                <button style="height: 30px; width: 80px; border-radius: 7px; background-color: rgb(31, 159, 202);">Submit</button>
+                </pre>
+                </div>
+            </div>
+            </form>
+        </p>
+    </div>
+    <div>
+        <b>What is command for command local repo and github repo.</b>
+        <p>
+            git remote add origin "link".
+        </p>
+    </div>
+    <div>
+        <b>git command to change the directory of local folder?</b>
+        <p>
+            git branch --> git branch "branch name" --> git checkout "branch name".
+        </p>
+    </div>
+    <div>
+        <b>git command to check the commit on the project?</b>
+        <p>git status</p>
+    </div>
+    <div>
+        <b>git command for pushing all the code to branch?</b>
+        <p>git push origin main</p>
+    </div>
+    <div>
+        <b>diff b/w the pull and push command in git?</b>
+        <p>Push is used to send the file from computer to github through git. Pull is used to retrive the files from github repo.</p>
+    </div>
+    <div>
+        <b>command to check the no of branchs and commands to switch the branch?</b>
+        <p>git branch --> git branch "branch name" --> git checkout "branch name"</p>
+    </div>
+    <div>
+        <b>what are the stages of our project to reach to github repo?</b>
+        <p>git init --> git add . --> git commit -m "" --> git remote add origin "" --> git branch -M main --> git push origin main</p>
+    </div>
+    <div>
+        <b> the command which we use in stagging area?</b>
+        <p> git add.</p>
+    </div>
+</body>
+
+</html>
